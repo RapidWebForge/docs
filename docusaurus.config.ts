@@ -42,21 +42,6 @@ const config: Config = {
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ["rss", "atom"],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-          // Useful options to enforce blogging best practices
-          onInlineTags: "warn",
-          onInlineAuthors: "warn",
-          onUntruncatedBlogPosts: "warn",
-        },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -78,7 +63,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Documentación",
         },
         {
           href: "https://github.com/RapidWebForge/RapidWebForgeApp",
@@ -91,16 +76,16 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Documentación",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Instalación",
+              to: "/docs/installation",
             },
           ],
         },
         {
-          title: "Community",
+          title: "Comunidad",
           items: [
             {
               label: "Landing Page",
@@ -109,7 +94,7 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "Más",
           items: [
             {
               label: "GitHub",
@@ -118,7 +103,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} RapidWebForge. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} RapidWebForge. Construido con Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
