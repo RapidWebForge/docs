@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Genera Aplicaciones Web Sin Codificar',
+    Svg: require('@site/static/img/undraw_programming_65t2.svg').default, // (más abajo te explico alternativas de imagen)
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Crea proyectos frontend y backend completos sin escribir una sola línea de código. RapidWebForge genera automáticamente código en React, ExpressJS y MySQL.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Aprende Programación Web Mientras Construyes',
+    Svg: require('@site/static/img/undraw_online-learning_tgmv.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        RapidWebForge integra un modo de lectura del código generado, ideal para quienes desean entender y aprender cómo funcionan las aplicaciones web modernas.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Despliegue Local Rápido y Profesional',
+    Svg: require('@site/static/img/undraw_server-status_f685.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Con soporte nativo para Nginx, puedes desplegar tus proyectos generados localmente con un flujo profesional, en cuestión de minutos.
       </>
     ),
   },

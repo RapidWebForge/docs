@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "RapidWebForge",
-  tagline: "Low-code web development platform",
+  tagline: "Aplicación de escritorio Low-code para desarrollar aplicaciones web",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -51,13 +51,13 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    // image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "RapidWebForge",
-      logo: {
+      /* logo: {
         alt: "RapidWebForge Logo",
         src: "img/logo.svg",
-      },
+      }, */
       items: [
         {
           type: "docSidebar",
@@ -80,7 +80,7 @@ const config: Config = {
           items: [
             {
               label: "Instalación",
-              to: "/docs/installation",
+              to: "/docs/instalacion/instalar-rwf",
             },
           ],
         },
