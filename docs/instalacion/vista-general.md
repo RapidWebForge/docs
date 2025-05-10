@@ -15,6 +15,7 @@ La barra lateral izquierda de RapidWebForge se divide en cuatro secciones:
 - **Overview**: Aquí se pueden acceder algunos tutoriales de RapidWebForge y a los proyectos más recientes.
 - **Tutorials**: Aquí se pueden acceder a los tutoriales de RapidWebForge.
 - **Projects**: Aquí se pueden acceder a los proyectos de RapidWebForge.
+- **Templates**: Aquí se pueden crear proyectos de RapidWebForge con plantillas establecidas.
 - **Configuración**: Aquí se pueden acceder a la configuración de las rutas de los software empleados por RapidWebForge.
 
 ## Configuración
@@ -25,12 +26,22 @@ El primer paso para utilizar RapidWebForge es configurar las rutas de los softwa
 
 ## Proyectos
 
-En la sección **Proyectos** se pueden crear, editar y eliminar proyectos.
+En la sección **Projects** se pueden crear, editar y eliminar proyectos.
 
 ![Proyectos de RapidWebForge](../../src/assets/img/webp/projects.webp)
 
 ## Tutoriales
 
-En la sección **Tutoriales** se pueden acceder a los tutoriales de RapidWebForge.
+En la sección **Tutorials** se pueden acceder a los tutoriales de RapidWebForge.
 
 ![Tutoriales de RapidWebForge](../../src/assets/img/webp/tutorials.webp)
+
+## Plantillas
+
+En la sección **Templates** se pueden acceder a los tutoriales de RapidWebForge.
+
+![Tutoriales de RapidWebForge](../../src/assets/img/webp/templates.webp)
+
+:::note
+ℹ️ **Nota:** Actualmente solo se cuenta con la plantilla CRUD.
+:::
